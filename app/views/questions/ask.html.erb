@@ -1,0 +1,7 @@
+<h1>Stupid Coaching</h1>
+<p>Ask your coach anything:</p>
+<form action="/answer" data-turbo="false" method="post">
+  <input class="form-control form-control-lg col-sm-10"name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>">
+  <input type="text" name="answer">
+  <input class="col-sm-2" type="submit" value="Ask!">
+</form>
